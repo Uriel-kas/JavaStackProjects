@@ -3,6 +3,7 @@ package chapterFive;
 import java.util.Scanner;
 
 public class LetterGrades {
+
     public static void main(String[] args){
         int total = 0;
         int gradeCounter = 0;
@@ -15,8 +16,7 @@ public class LetterGrades {
         System.out.printf("%s%n%s%n",
                 "Enter the integer grades in the range 0-100: ",
                 "Type the end-of-file indicator to terminate input: ");
-//                "On UNIX/Linux/Mac OS X type <Ctrl> d then press Enter",
-//                "On Windows type <Ctrl> z then press Enter"
+
         while (input.hasNext()) {
             int grade = input.nextInt();
             total += grade;
