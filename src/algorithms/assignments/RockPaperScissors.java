@@ -39,13 +39,22 @@ public class RockPaperScissors {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    System.out.print("Player 1, enter your choice (rock, paper, or scissors): ");
-    String player1 = scanner.nextLine();
+    while (true) {
+        System.out.print("Player 1, enter your choice (rock, paper, or scissors): ");
+        String player1 = scanner.nextLine();
 
-    System.out.print("Player 2, enter your choice (rock, paper, or scissors): ");
-    String player2 = scanner.nextLine();
+        System.out.print("Player 2, enter your choice (rock, paper, or scissors): ");
+        String player2 = scanner.nextLine();
 
-    String result = getWinner(player1, player2);
-    System.out.println(result);
+        String result = getWinner(player1, player2);
+        System.out.println(result);
+
+        System.out.print("Do you want to play again? (yes/no): ");
+        String playAgain = scanner.nextLine();
+        if (!playAgain.equalsIgnoreCase("yes")) {
+            break;
+        }
+    }
+    System.out.println("Game has ended.");
   }
 }

@@ -22,10 +22,18 @@ public class HighsAndLows {
   }
 
   public static void main(String[] args) {
-      Scanner input = new Scanner(System.in);
-      System.out.print("Enter numbers with a space between them to determine the highest and lowest: ");
-      String numberRanges = input.nextLine();
+    Scanner input = new Scanner(System.in);
+    String numberRanges;
+    while (true) {
+      System.out.print(
+          "Enter numbers with a space between them to determine the highest and lowest (or type 'exit' to stop): ");
+      numberRanges = input.nextLine();
+      if (numberRanges.equalsIgnoreCase("exit")) {
+        break;
+      }
       String result = highestLowest(numberRanges);
       System.out.println("Highest and Lowest Numbers: \"" + result + "\"");
+    }
+    System.out.println("Program stopped.");
   }
 }
