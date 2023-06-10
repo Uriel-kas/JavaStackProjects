@@ -51,8 +51,6 @@ v
 Fsrc/chapterSix/makingADiff/ComputerAidedInstructionStudentFatigue.java,0/b/0b7aa4876bdb4bd9c19b03e8f5e0d2d61e980ba9
 V
 &src/chapterFive/exercise/PiSeries.java,3/6/367078ae3a4e6498f3e3eb739eeba02eb11de14b
-h
-8src/chapterSix/makingADiff/ComputerAidedInstruction.java,7/b/7b76669cac8a2ce4940862cc50bae7a1a0d381ed
 X
 (src/chapterFour/exercises/Encryptor.java,3/5/350e925db43bca16dcea5debf59e06503318b49f
 _
@@ -75,8 +73,6 @@ E
 +src/chapterSix/examples/RandomIntegers.java,3/6/368b705ec37684342aa4a599c0342e393a2526d3
 M
 src/chapterSix/EvenOrOdd.java,1/9/19bfcdb656bd54c7b52f687b4d93adea3928729d
-R
-"src/chapterSix/examples/Craps.java,f/d/fda03dba6950fd55d4e5963a5ff615ad86286d22
 M
 src/chapterSix/Multiples.java,c/9/c96831537234dde767a41a96d41923fcb4238c2d
 e
@@ -93,3 +89,23 @@ U
 +src/algorithms/assignments/Paradiddles.java,3/9/39c8edb8a3a69460a1e57e63676b374b8a62f666
 ]
 -src/algorithms/CountLettersInAWordSearch.java,9/6/96c8871e4ca2882e069af891ad7ad91cb093d5c2
+a
+1src/algorithms/assignments/RockPaperScissors.java,7/3/739d238733c24b7a65d701654e13e6e9bb71c7c9
+\
+,src/algorithms/assignments/HighsAndLows.java,2/2/22727303e9b33fc3702a276580dd3c57590b0cfb
+]
+-src/algorithms/assignments/Transcription.java,5/4/541b8aa4cdc31d8c2b289ea32bfc90e86c515d03
+\
+,src/algorithms/assignments/HouseAddress.java,c/5/c5380548a8ceb1ad31ffd93f7e7a3f564f3cd757
+^
+.src/algorithms/assignments/FuelCalculator.java,4/9/49bfd6aebe3ed57ea7929106f18b6d8ac8d406fc
+_
+/src/algorithms/assignments/VowelsOrganiser.java,8/8/881a84f5d14012bd6d7e97f37f25b833a6d48c42
+Y
+)src/algorithms/MissingNumberExtended.java,f/9/f9d02922f55ce05eb1e01d29e8938518b08d0e59
+]
+-src/algorithms/assignments/MissingNumber.java,9/c/9cf50e84d54379d37c6a7a55d6ce9576c8a0be52
+[
++src/algorithms/assignments/PairMatcher.java,6/6/66f1b44b0ff36c5ab1c2c5721e838dbe6e987b67
+R
+"src/chapterSix/examples/Craps.java,f/d/fda03dba6950fd55d4e5963a5ff615ad86286d22

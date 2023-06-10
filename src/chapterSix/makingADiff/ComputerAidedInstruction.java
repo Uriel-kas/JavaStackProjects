@@ -43,7 +43,7 @@ public class ComputerAidedInstruction {
   }
 
   public static void displayQuestion() {
-    System.out.println("How much is " + firstDigit + " times " + secondDigit + "?");
+    System.out.print("How much is " + firstDigit + " times " + secondDigit + "?: ");
   }
 
   public static int basicMultiplication() {
